@@ -13,7 +13,7 @@ function App() {
 
         try {
             // Send the image to the backend
-            const response = await fetch('http://localhost:3000/generate-description', {
+            const response = await fetch('https://8f9a-123-252-204-198.ngrok-free.app/generate-description', {
                 method: 'POST',
                 body: formData,
             });
